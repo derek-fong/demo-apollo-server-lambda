@@ -1,0 +1,26 @@
+{
+  "name": "demo-apollo-server-lambda",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "serverless deploy --stage prod",
+    "dev": "serverless offline start",
+    "start": "npm run dev"
+  },
+  "repository": "github:derek-fong/demo-apollo-server-lambda",
+  "author": "Derek Fong <derek.fong@alppix.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-lambda": "^2.16.1",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^3.0.0",
+    "serverless-offline": "^6.5.0",
+    "serverless-webpack": "^5.3.3",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-node-externals": "^2.5.0"
+  }
+}
